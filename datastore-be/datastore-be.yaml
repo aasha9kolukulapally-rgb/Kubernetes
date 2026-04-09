@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: datastore-backend
-          image: 8072388539/datastore:v35.0
+          image: aashavinnu/datastore-be:latest
           env:
             - name: MYSQL_HOST
               valueFrom:
