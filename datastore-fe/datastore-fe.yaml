@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: mywebapp
-          image: 8072388539/datastore-frontend:v35.0
+          image: aashavinnu/datastore-fe:latest
           env:
             - name: API_URL
               valueFrom:
